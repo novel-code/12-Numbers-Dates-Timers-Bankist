@@ -197,7 +197,7 @@ const startLogOutTimer = function () {
     // When 0 seconds, stop timer and log out user
     if (time === 0) {
       clearInterval(timer);
-      labelWelcome.textContent = `Log in to get started`;
+      labelWelcome.textContent = `js 1111, jd 2222`;
       containerApp.style.opacity = 0;
     }
     // Decrease 1s
